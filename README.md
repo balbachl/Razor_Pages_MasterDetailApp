@@ -1,0 +1,1 @@
+# Razor_Pages_MasterDetailApp
