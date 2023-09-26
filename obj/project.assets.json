@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -7788,7 +7788,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.17",
@@ -7797,28 +7797,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\melis\\.nuget\\packages\\": {},
+    "C:\\Users\\shane\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\melis\\Source\\Repos\\Razor_Pages_MasterDetailApp\\JellyPagesMasterDetailApp.csproj",
+      "projectUniqueName": "C:\\Users\\shane\\OneDrive\\Desktop\\MasterDetail\\Razor_Pages_MasterDetailApp\\JellyPagesMasterDetailApp.csproj",
       "projectName": "JellyPagesMasterDetailApp",
-      "projectPath": "C:\\Users\\melis\\Source\\Repos\\Razor_Pages_MasterDetailApp\\JellyPagesMasterDetailApp.csproj",
-      "packagesPath": "C:\\Users\\melis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\melis\\Source\\Repos\\Razor_Pages_MasterDetailApp\\obj\\",
+      "projectPath": "C:\\Users\\shane\\OneDrive\\Desktop\\MasterDetail\\Razor_Pages_MasterDetailApp\\JellyPagesMasterDetailApp.csproj",
+      "packagesPath": "C:\\Users\\shane\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shane\\OneDrive\\Desktop\\MasterDetail\\Razor_Pages_MasterDetailApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\melis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shane\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -7826,8 +7826,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -7838,8 +7838,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -7885,7 +7885,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

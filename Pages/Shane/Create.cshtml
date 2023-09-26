@@ -5,12 +5,27 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<head>
+    <style>
+        body {
+            background-color: yellow;
+        }
 
-<h4>Phonebook</h4>
+        h1 {
+            text-align: center;
+            text-shadow: 3px 3px 3px black;
+            padding: 10px;
+            color: pink;
+        }
+    </style>
+</head>
+
+<h1>JellyPages</h1>
+
+<h4>Create a contact</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="row" style="justify-content:center;">
+    <div class="col-md-4" style="background:orange; padding:10px; justify-content:center; border-radius:10px; box-shadow: 3px 3px 3px black;">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -24,22 +39,18 @@
                 <span asp-validation-for="Phonebook.LastName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Phonebook.Address" class="control-label"></label>
-                <input asp-for="Phonebook.Address" class="form-control" />
-                <span asp-validation-for="Phonebook.Address" class="text-danger"></span>
+                <label asp-for="Phonebook.Email" class="control-label"></label>
+                <input asp-for="Phonebook.Email" class="form-control" />
+                <span asp-validation-for="Phonebook.Email" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Phonebook.Phone" class="control-label"></label>
                 <input asp-for="Phonebook.Phone" class="form-control" />
                 <span asp-validation-for="Phonebook.Phone" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="Phonebook.Email" class="control-label"></label>
-                <input asp-for="Phonebook.Email" class="form-control" />
-                <span asp-validation-for="Phonebook.Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary" style="margin-top:10px;" />
             </div>
         </form>
     </div>

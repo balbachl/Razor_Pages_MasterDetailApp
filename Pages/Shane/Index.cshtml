@@ -4,14 +4,34 @@
 @{
     ViewData["Title"] = "Index";
 }
+<head>
+    <style>
+        body {
+            background-color: yellow;
+        }
 
-<h1>Index</h1>
+        h1 {
+            text-align: center;
+            text-shadow: 3px 3px 3px black;
+            padding: 10px;
+            color: pink;
+        }
+    </style>
+</head>
+
+<h1>Jelly Pages</h1>
 
 <p>
     <a asp-page="Create">Create New</a>
 </p>
-<table class="table">
-    <thead>
+<form>
+    <p>
+        First Name: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<table class="table" style="background-color:beige">
+    <thead style="background-color:green;">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Phonebook[0].FirstName)

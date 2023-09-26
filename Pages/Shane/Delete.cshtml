@@ -4,14 +4,27 @@
 @{
     ViewData["Title"] = "Delete";
 }
+<head>
+    <style>
+        body {
+            background-color: yellow;
+        }
 
-<h1>Delete</h1>
+        h1 {
+            text-align: center;
+            text-shadow: 3px 3px 3px black;
+            padding: 10px;
+            color: pink;
+        }
+    </style>
+</head>
+
+<h1>Jelly Pages</h1>
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>Phonebook</h4>
     <hr />
-    <dl class="row">
+    <dl class="row" style="background-color:beige; padding:10px; border-radius:15px;">
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Phonebook.FirstName)
         </dt>

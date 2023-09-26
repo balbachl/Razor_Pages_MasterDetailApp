@@ -4,13 +4,26 @@
 @{
     ViewData["Title"] = "Edit";
 }
+<head>
+    <style>
+        body {
+            background-color: yellow;
+        }
 
-<h1>Edit</h1>
+        h1 {
+            text-align: center;
+            text-shadow: 3px 3px 3px black;
+            padding: 10px;
+            color: pink;
+        }
+    </style>
+</head>
 
-<h4>Phonebook</h4>
+<h1>Jelly Pages</h1>
+<h4>Edit a contact</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4" style="background:orange; padding:10px; border-radius:10px; box-shadow: 3px 3px 3px black;">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Phonebook.ID" />

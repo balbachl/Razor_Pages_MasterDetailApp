@@ -21,6 +21,9 @@ namespace JellyPagesMasterDetailApp.Pages.Shane
 
         public IList<Phonebook> Phonebook { get;set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string SearchString { get; set; }
+
         public async Task OnGetAsync()
         {
             Phonebook = await _context.Phonebook.ToListAsync();
