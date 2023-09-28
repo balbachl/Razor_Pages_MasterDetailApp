@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shane\\OneDrive\\Desktop\\MasterDetail\\Razor_Pages_MasterDetailApp\\JellyPagesMasterDetailApp.csproj": {}
+    "C:\\Users\\mybil\\OneDrive\\Desktop\\App\\Razor_Pages_MasterDetailApp\\JellyPagesMasterDetailApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shane\\OneDrive\\Desktop\\MasterDetail\\Razor_Pages_MasterDetailApp\\JellyPagesMasterDetailApp.csproj": {
+    "C:\\Users\\mybil\\OneDrive\\Desktop\\App\\Razor_Pages_MasterDetailApp\\JellyPagesMasterDetailApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shane\\OneDrive\\Desktop\\MasterDetail\\Razor_Pages_MasterDetailApp\\JellyPagesMasterDetailApp.csproj",
+        "projectUniqueName": "C:\\Users\\mybil\\OneDrive\\Desktop\\App\\Razor_Pages_MasterDetailApp\\JellyPagesMasterDetailApp.csproj",
         "projectName": "JellyPagesMasterDetailApp",
-        "projectPath": "C:\\Users\\shane\\OneDrive\\Desktop\\MasterDetail\\Razor_Pages_MasterDetailApp\\JellyPagesMasterDetailApp.csproj",
-        "packagesPath": "C:\\Users\\shane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shane\\OneDrive\\Desktop\\MasterDetail\\Razor_Pages_MasterDetailApp\\obj\\",
+        "projectPath": "C:\\Users\\mybil\\OneDrive\\Desktop\\App\\Razor_Pages_MasterDetailApp\\JellyPagesMasterDetailApp.csproj",
+        "packagesPath": "C:\\Users\\mybil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mybil\\OneDrive\\Desktop\\App\\Razor_Pages_MasterDetailApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mybil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

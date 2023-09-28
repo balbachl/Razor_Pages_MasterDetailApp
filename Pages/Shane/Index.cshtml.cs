@@ -19,7 +19,7 @@ namespace JellyPagesMasterDetailApp.Pages.Shane
             _context = context;
         }
 
-        public IList<Phonebook> Phonebook { get;set; }
+        public IList<Phonebook> Phonebook { get; set; }
 
         [BindProperty(SupportsGet = true)]
         public string SearchString { get; set; }
