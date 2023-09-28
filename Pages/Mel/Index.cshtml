@@ -4,57 +4,78 @@
 @{
     ViewData["Title"] = "Index";
 }
+<body body style="background-color:#26b9c8">
+    <h1>Bikini Bottom Phonebook</h1>
 
-<h1>Index</h1>
+    <p>
+        <a asp-page="Create" class="btn btn-warning btn-sm border border-dark" style="border-radius: 8px">Create New Resident</a>
+    </p>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Phonebook[0].FirstName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Phonebook[0].LastName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Phonebook[0].Address)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Phonebook[0].Phone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Phonebook[0].Email)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Phonebook) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.FirstName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LastName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Address)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Phone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <form>
+        <p>
+            <input type="search" asp-for="SearchString" style="border-radius: 8px" placeholder="Search" class="text-center text-dark" />
+            <input type="submit" class="btn btn-success btn-sm border border-dark" style="border-radius: 8px" value="Filter" />
+            <a asp-route-Index="" asp-route-SearchString="" class="btn btn-secondary btn-sm border border-dark" style="border-radius: 8px" class="border border-dark">Search Again</a>
+        </p>
+    </form>
+    <div class="table-responsive-md">
+        <table class="table border-radius:8px p-4" body style="background-color:white">
+            <thead>
+                <tr>
+                    <th>
+                        <a asp-page="./Index" asp-route-sortOrder="@Model.FirstNameSort">
+                            @Html.DisplayNameFor(model => model.Phonebook[0].FirstName)
+                        </a>
+                    </th>
+                    <th>
+                        <a asp-page="./Index" asp-route-sortOrder="@Model.LastNameSort">
+                            @Html.DisplayNameFor(model => model.Phonebook[0].LastName)
+                        </a>
+                    </th>
+                    <th>
+                        <a asp-page="./Index" asp-route-sortOrder="@Model.AddressSort">
+                            @Html.DisplayNameFor(model => model.Phonebook[0].Address)
+                        </a>
+                    </th>
+                    <th>
+                        <a asp-page="./Index" asp-route-sortOrder="@Model.PhoneSort">
+                            @Html.DisplayNameFor(model => model.Phonebook[0].Phone)
+                        </a>
+                    </th>
+                    <th>
+                        <a asp-page="./Index" asp-route-sortOrder="@Model.EmailSort">
+                            @Html.DisplayNameFor(model => model.Phonebook[0].Email)
+                        </a>
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Phonebook) {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FirstName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LastName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Address)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Phone)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@item.ID" class="btn btn-warning btn-sm border border-dark" style="border-radius: 8px">Edit</a> |
+                            <a asp-page="./Details" asp-route-id="@item.ID" class="btn btn-success btn-sm border border-dark" style="border-radius: 8px">Details</a> |
+                            <a asp-page="./Delete" asp-route-id="@item.ID" class="btn btn-danger btn-sm border border-dark" style="border-radius: 8px">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>

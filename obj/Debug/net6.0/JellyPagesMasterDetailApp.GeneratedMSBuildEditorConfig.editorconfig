@@ -9,97 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JellyPagesMasterDetailApp
 build_property.RootNamespace = JellyPagesMasterDetailApp
-build_property.ProjectDir = C:\Users\shane\OneDrive\Desktop\MasterDetail\Razor_Pages_MasterDetailApp\
+build_property.ProjectDir = C:\Users\melis\OneDrive\Desktop\CIT 255\Master Detail App Final\Razor_Pages_MasterDetailApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\shane\OneDrive\Desktop\MasterDetail\Razor_Pages_MasterDetailApp
+build_property.MSBuildProjectDirectory = C:\Users\melis\OneDrive\Desktop\CIT 255\Master Detail App Final\Razor_Pages_MasterDetailApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Error.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Index.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Mel/Create.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Mel/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVsXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Mel/Delete.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Mel/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVsXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Mel/Details.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Mel/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVsXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Mel/Edit.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Mel/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVsXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Mel/Index.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Mel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Nicole/Create.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Nicole/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmljb2xlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Nicole/Delete.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Nicole/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmljb2xlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Nicole/Details.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Nicole/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmljb2xlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Nicole/Edit.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Nicole/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmljb2xlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Nicole/Index.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Nicole/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmljb2xlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Privacy.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Shane/Create.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Shane/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhbmVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Shane/Delete.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Shane/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhbmVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Shane/Details.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Shane/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhbmVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Shane/Edit.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Shane/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhbmVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Shane/Index.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Shane/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhbmVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Shared/_Layout.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/_ViewImports.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/shane/OneDrive/Desktop/MasterDetail/Razor_Pages_MasterDetailApp/Pages/_ViewStart.cshtml]
+[C:/Users/melis/OneDrive/Desktop/CIT 255/Master Detail App Final/Razor_Pages_MasterDetailApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

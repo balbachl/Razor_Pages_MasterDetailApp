@@ -4,51 +4,53 @@
 @{
     ViewData["Title"] = "Create";
 }
+<body body style="background-color:white">
 
-<h1>Create</h1>
+    <h4>Create New Resdient</h4>
 
-<h4>Phonebook</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Phonebook.FirstName" class="control-label"></label>
-                <input asp-for="Phonebook.FirstName" class="form-control" />
-                <span asp-validation-for="Phonebook.FirstName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Phonebook.LastName" class="control-label"></label>
-                <input asp-for="Phonebook.LastName" class="form-control" />
-                <span asp-validation-for="Phonebook.LastName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Phonebook.Address" class="control-label"></label>
-                <input asp-for="Phonebook.Address" class="form-control" />
-                <span asp-validation-for="Phonebook.Address" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Phonebook.Phone" class="control-label"></label>
-                <input asp-for="Phonebook.Phone" class="form-control" />
-                <span asp-validation-for="Phonebook.Phone" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Phonebook.Email" class="control-label"></label>
-                <input asp-for="Phonebook.Email" class="form-control" />
-                <span asp-validation-for="Phonebook.Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+    <hr />
+    <div class="row border border-dark border border-radius 8px p-4" style=" background-color:#f7e948">
+
+        <div class="col-md-10">
+
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Phonebook.FirstName" class="control-label"></label>
+                    <input asp-for="Phonebook.FirstName" class="form-control" />
+                    <span asp-validation-for="Phonebook.FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phonebook.LastName" class="control-label"></label>
+                    <input asp-for="Phonebook.LastName" class="form-control" />
+                    <span asp-validation-for="Phonebook.LastName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phonebook.Address" class="control-label"></label>
+                    <input asp-for="Phonebook.Address" class="form-control" />
+                    <span asp-validation-for="Phonebook.Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phonebook.Phone" class="control-label"></label>
+                    <input asp-for="Phonebook.Phone" class="form-control" />
+                    <span asp-validation-for="Phonebook.Phone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phonebook.Email" class="control-label"></label>
+                    <input asp-for="Phonebook.Email" class="form-control" />
+                    <span asp-validation-for="Phonebook.Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-success btn-sm border border-dark" style="border-radius: 8px" />
+                    <a asp-page="./Index" class="btn btn-info btn-sm border border-dark" style="border-radius: 8px">Back to List</a>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
 
-<div>
-    <a asp-page="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
