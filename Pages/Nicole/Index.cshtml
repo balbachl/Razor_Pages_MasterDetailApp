@@ -5,19 +5,71 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<style>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
+    body {
+        background-image: url("/Images/jellyfishing.webp");
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+    }
+
+    h1
+    {
+        background-color:lightgoldenrodyellow;
+        color: purple;
+        border-style:groove;
+        border-radius: 5px;
+        width:fit-content;
+        padding:5px;
+    }
+    p
+    {
+        width:fit-content;
+        border-radius: 5px;
+        color:darkslategrey;
+
+    }
+
+    button
+    {
+        background-color: lightgoldenrodyellow;
+        color: cornflowerblue;
+        float: right;
+        border-style: double;
+        border-radius: 5px
+    }
+    tr:hover
+    {
+        background-color:yellow;
+    }
+</style>
+
+<h1> Jelly Pages - A Bikini Bottom Phone Book</h1>
+
+<div>
+    <form>
+
+        Name: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+
+    </form>
+    <button>
+        <a asp-page="Create"> Create New</a>
+    </button>
+</div>
+
 <table class="table">
     <thead>
-        <tr>
+        <tr style="background-color:lightseagreen">
             <th>
+                <a asp-page="./Index" asp-route-sortOrder="@Model.FirstSort">
                 @Html.DisplayNameFor(model => model.Phonebook[0].FirstName)
+                </a>
             </th>
             <th>
+                <a asp asp-page="./Index" asp-route-sortOrder="@Model.LastSort">
                 @Html.DisplayNameFor(model => model.Phonebook[0].LastName)
+                </a>
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Phonebook[0].Address)
@@ -26,6 +78,7 @@
                 @Html.DisplayNameFor(model => model.Phonebook[0].Phone)
             </th>
             <th>
+
                 @Html.DisplayNameFor(model => model.Phonebook[0].Email)
             </th>
             <th></th>
@@ -58,3 +111,4 @@
 }
     </tbody>
 </table>
+

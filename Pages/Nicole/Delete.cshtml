@@ -5,13 +5,41 @@
     ViewData["Title"] = "Delete";
 }
 
+<style>
+
+    body {
+        background-image: url("/Images/jellyfishing.webp");
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+    }
+
+    h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: lightgoldenrodyellow;
+        color: purple;
+        border-style: groove;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 5px;
+    }
+
+    h4 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    div {
+        border-radius: 5px;
+        color: darkslategrey;
+    }
+
+</style>
+
 <h1>Delete</h1>
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>Phonebook</h4>
     <hr />
-    <dl class="row">
+    <dl class="row" style="background-color:lightseagreen">
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Phonebook.FirstName)
         </dt>
@@ -43,10 +71,10 @@
             @Html.DisplayFor(model => model.Phonebook.Email)
         </dd>
     </dl>
-    
+
     <form method="post">
         <input type="hidden" asp-for="Phonebook.ID" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-page="./Index">Back to List</a>
+        <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
     </form>
 </div>

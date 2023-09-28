@@ -5,12 +5,37 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<style>
 
-<h4>Phonebook</h4>
+    body {
+        background-image: url("/Images/jellyfishing.webp");
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+    }
+
+    h1 {
+        background-color: lightgoldenrodyellow;
+        color: purple;
+        border-style: groove;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 5px;
+    }
+
+
+    div, form {
+        border-radius: 5px;
+        color: darkslategrey;
+    }
+
+</style>
+
+<h1>Create New Entry</h1>
+
+
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6" style="background-color:lightseagreen">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -38,17 +63,18 @@
                 <input asp-for="Phonebook.Email" class="form-control" />
                 <span asp-validation-for="Phonebook.Email" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
+
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-page="Index">Back to List</a>
+    <input type="submit" value="Create" class="btn btn-success" /> |
+    <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
